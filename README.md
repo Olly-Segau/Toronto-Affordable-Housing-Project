@@ -1,7 +1,7 @@
 # Toronto Affordable Housing Pipeline Dashboard
 
 ## 1. Background and Overview
-* **Context**:Toronto is currently experiencing a significant housing affordability crisis, with rising rents and limited inventory. To provide transparency, the City of Toronto maintains a "Housing Pipeline" dataset that tracks every affordable housing project from the initial planning stages to final completion.
+* **Context:** Toronto is currently experiencing a significant housing affordability crisis, with rising rents and limited inventory. To provide transparency, the City of Toronto maintains a "Housing Pipeline" dataset that tracks every affordable housing project from the initial planning stages to final completion.
 
 * **Goal:** The goal of this project was to take raw, complex municipal housing data and transform it into a high-level executive dashboard. This tool allows users to quickly identify where housing is being built, how many units are expected, and which phases of development are currently experiencing the most significant bottlenecks.
 
@@ -14,7 +14,7 @@ The project utilizes the Affordable Rental Housing Pipeline dataset from the Tor
  - Project Metadata: Project names, addresses, and unique ID numbers.
  - Status: The current phase of the project (e.g., Planning, Under Construction, Completed).
  - Geographic Data: Ward names and coordinates for mapping.
-* - Capacity: Total expected units per project and the "Housing Mix" (unit types).
+ - Capacity: Total expected units per project and the "Housing Mix" (unit types).
 
 ## 3. Executive Summary
 The analysis shows that while over 15,000+ units are currently in the pipeline, a substantial portion remains stuck in the "Planning" phase for extended periods. Geographic analysis reveals that housing development is heavily concentrated in a few central wards, leaving several suburban areas with virtually no upcoming affordable inventory. Furthermore, "Completed" projects represent the smallest slice of the total pipeline, highlighting a gap between project approval and final occupancy.
