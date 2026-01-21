@@ -8,16 +8,22 @@
 ## 2. Data Structure Overview
 The project utilizes the Affordable Rental Housing Pipeline dataset from the Toronto Open Data portal.
 
-* Source: Toronto Open Data Portal
+* Source: [Toronto Open Data Portal](https://open.toronto.ca/dataset/upcoming-and-recently-completed-affordable-housing-units/)
 * Format: Flat-file CSV export.
-* Key Attributes:
+  
+ #### Key Attributes:
  - Project Metadata: Project names, addresses, and unique ID numbers.
  - Status: The current phase of the project (e.g., Planning, Under Construction, Completed).
  - Geographic Data: Ward names and coordinates for mapping.
  - Capacity: Total expected units per project and the "Housing Mix" (unit types).
+<img width="359" height="271" alt="diagram" src="https://github.com/user-attachments/assets/8fed5a16-9175-47b8-8043-fcfaf03fec2f" />
+
 
 ## 3. Executive Summary
 The analysis shows that while over 15,000+ units are currently in the pipeline, a substantial portion remains stuck in the "Planning" phase for extended periods. Geographic analysis reveals that housing development is heavily concentrated in a few central wards, leaving several suburban areas with virtually no upcoming affordable inventory. Furthermore, "Completed" projects represent the smallest slice of the total pipeline, highlighting a gap between project approval and final occupancy.
+
+<img width="574" height="364" alt="final dashboard" src="https://github.com/user-attachments/assets/e587103e-b79b-430b-84a2-d14006e35627" />
+
 
 ## 4. Insights Deep Dive
 * **The "Planning" Bottleneck:** Using the Status slicer, the dashboard highlights that roughly 60% of all total units are still in the planning or pre-construction stage. This insight is crucial for understanding that a high "Total Unit" count does not translate to immediate housing availability.
@@ -30,6 +36,13 @@ The analysis shows that while over 15,000+ units are currently in the pipeline, 
 * **Why this matters:** This project serves as a "Reality Check" for housing targets. It moves beyond simple announcements and tracks actual progress.
 
 * **Recommendation:** Moving forward, the city should investigate why specific wards have zero active projects and consider incentives for developers to build in "low-density" affordable zones. Additionally, for future iterations of this dashboard, I recommend adding a "Time in Status" metric to track exactly how many days a project spends in the planning phase to help identify administrative delays.
+
+### How to View This Project
+🌐 Live Interactive Dashboard: [Click here to view the live report](https://app.powerbi.com/links/ltoS0fpVRn?ctid=e3b1697d-4182-41a8-b41c-abdd6b0f3483&pbi_source=linkShare)
+
+📂 Local File: Download the .pbix file included in this repository to explore the data model and measures in Power BI Desktop.
+
+📊 Data Source: The project uses the latest snapshot from the Toronto Open Data Portal (CSV format).
 
   ## Author
 
